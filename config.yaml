@@ -2,9 +2,9 @@ common: &common
   name:
     item: "大項目"
     sub-item: "中項目"
-    pos-neg: "正常系\n／異常系"
+    # pos-neg: "正常系\n／異常系"
     sub-sub-item: "小項目"
-    result: "テスト結果"
+    # result: "テスト結果"
     number: "No."
     steps: "確認手順"
     expected: "想定動作"
@@ -29,17 +29,17 @@ excel:
   index:
     item: true
     sub-item: true
-    pos-neg: true
+    # pos-neg: true
     sub-sub-item: true
-    result: true
+    # result: true
 
   # エクセルでの列幅
   length:
     item: 20
     sub-item: 15
-    pos-neg: 10
+    # pos-neg: 10
     sub-sub-item: 50
-    result: 10
+    # result: 10
     number: 6
     steps: 70
     expected: 70
@@ -49,9 +49,9 @@ excel:
   horizontal:
     item: "center"
     sub-item: "center"
-    pos-neg: "center"
+    # pos-neg: "center"
     sub-sub-item: "left"
-    result: "center"
+    # result: "center"
     number: "center"
     steps: "left"
     expected: "left"
@@ -61,9 +61,9 @@ excel:
   vertical:
     item: "top"
     sub-item: "top"
-    pos-neg: "top"
+    # pos-neg: "top"
     sub-sub-item: "top"
-    result: "center"
+    # result: "center"
     number: "center"
     steps: "top"
     expected: "top"
