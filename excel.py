@@ -94,7 +94,7 @@ def convert_df_to_excel(df: pd.DataFrame, config_excel: dict, output_path: str =
     write_test_specification(df, writer, config_excel, merge_cells)
 
     try:
-        writer.save()
+        writer.close()
     except PermissionError:
         sys.stderr.write("[ERROR] 仕様書のエクセルファイルを閉じてください")
         sys.exit(1)
